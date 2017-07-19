@@ -1,0 +1,134 @@
+/*
+Project Name: Relaxr
+Client: Your Client
+Author: Sarah Hofmeister
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+* {
+  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
+}
+
+body {
+  color: #033048;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button{
+  			width: 300px;
+  			display: inline-block;
+  			border-radius: 5px;
+  			color: white;
+  			padding: 10px 0;
+  			text-align: center;
+  			font-weight: 900;
+        font-size: 14px;
+  			text-decoration: none;
+
+			}
+
+.secondary{
+  background: rgb(115,176,248);
+  justify-content: center;
+
+}
+
+.primary {
+  background: rgb(16,204,114);
+  margin-left: 80px;
+}
+
+h1 {
+  color: white; 
+  margin-left: 80px; 
+  padding: 20px 0 0 0;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(16,204,114);
+  margin-left: 80px; 
+  font-weight: 900;
+  font-size: 36px;
+  padding: 60px 0 0 0;
+}
+
+h3 {
+  font-weight: bold; 
+  font-size: 20px;
+}
+
+p {
+  font-weight: 300; 
+  font-size: 14px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+header {
+	height: 450px;
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+#services {
+  display: flex;
+  justify-content: space-around;
+}
+
+section div {
+  width: 150px;
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+
+}
+
+#cta {
+ display: block;
+ text-align: center;
+}
+
+blockquote {
+  padding: 40px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(142,149,146);
+
+}
+
+blockquote p {
+  font-weight: 300; 
+  font-size: 18px;
+  font-style: italic;
+}
+
+cite {
+  font-weight: 400; 
+  font-size: 14px;
+}
+
+
+footer {
+  text-align: center;
+  background: rgb(242,244,246);
+  font-weight: bold;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+footer h1{
+  color: rgb(113,122,128);
+}
