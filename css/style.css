@@ -54,7 +54,7 @@ h2 {
   margin-left: 80px; 
   font-weight: 900;
   font-size: 36px;
-  padding: 60px 0 0 0;
+  padding: 60px 0 40px 0;
 }
 
 h3 {
@@ -131,4 +131,6 @@ footer {
 
 footer h1{
   color: rgb(113,122,128);
+  margin: 0; 
+  padding-bottom: 10px;
 }
